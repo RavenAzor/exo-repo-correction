@@ -1,4 +1,4 @@
-name: Output le contenu du contexte GitHub.
+name: Output le contenu du contexte GitHub
 on: workflow_dispatch
 jobs:
   info:
