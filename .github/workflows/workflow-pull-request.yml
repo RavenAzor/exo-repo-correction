@@ -1,0 +1,7 @@
+name: s'éxecute lors d'une pull request
+on: pull_request
+jobs:
+  job-ex:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Il y a une pull request"
