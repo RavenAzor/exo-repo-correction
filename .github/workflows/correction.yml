@@ -1,0 +1,13 @@
+name: Exo workflow
+on: push
+jobs:
+  first_job:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: récupérer le code
+        uses: actions/checkout@v4
+      - name: install dépendances
+        run: npm install
+      - name: build
+        run : npm run build
