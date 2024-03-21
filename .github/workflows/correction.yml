@@ -10,4 +10,6 @@ jobs:
       - name: install dépendances
         run: npm install
       - name: build
-        run : npm run build
+        run: npm run build
+      - name: Déploiement du projet
+        run: echo "En cours de déploiement..."
